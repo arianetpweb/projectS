@@ -1,0 +1,30 @@
+.container-core {
+    display: flex;
+    flex-direction: row;
+  }
+  .cart-container {
+    width: 30%;
+  }
+  .cart-icon {
+    position: relative;
+    display: inline-block;
+  }
+
+  .cart-icon .notification {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 4px;
+    font-size: 12px;
+    display: none;
+  }
+  .page-content {
+    padding: 20px;
+    height: 100vh;
+    width: 70%;
+    overflow-y: scroll;
+
+  }
